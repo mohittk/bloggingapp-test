@@ -134,6 +134,12 @@ export default function Navbar({ active }) {
             >
               Signup
             </Link>
+            <Link
+              to="/login"
+              className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 font-semibold  text-xl hover:text-white mr-4"
+            >
+              Login
+            </Link>
           </div>
         </div>
       </nav>
