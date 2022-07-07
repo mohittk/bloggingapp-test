@@ -108,9 +108,9 @@ router.post('/allarticlesposts', async(req, res) => {
 
 router.post('/articlepost', async (req, res) => {
     let {
-        article_title, article_description, article_image, article_thumbnail
+        article_title, article_description, article_image, article_thumbnail, article_id
     } = req.body;
-    let article_id = generateUniqueId();
+    // let article_id = generateUniqueId();
 
 
     const articlepost = new Article({
